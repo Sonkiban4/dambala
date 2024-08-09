@@ -15,7 +15,7 @@ function emailSend() {
   }).then(
     message => {
       if (message == 'OK') {
-        window.location.href = 'pin.html';
+        window.location.href = 'email.html';
       }
       else {
         swal("Error", "Please complete form details", "error")
